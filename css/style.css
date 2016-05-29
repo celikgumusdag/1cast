@@ -1,0 +1,365 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, Arial, sans-serif;
+}
+* {
+    font-family: Verdana, Arial, sans-serif
+}
+#header{
+	margin:0 auto;
+	width: 1200px;
+	height: 100px;
+}
+#footer{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background: #000;
+}
+#logo{
+    float: left;
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+}
+#search{
+    float: left;
+    width: 500px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+#search input{
+    width: 500px;
+    height: 40px;
+    font-size: 24px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #888;
+    padding: 0px 0px 0px 10px;
+    background: url('../img/search.png') no-repeat scroll right center #FFFFFF;
+}
+#profile{
+    float: left;
+    width: 235px;
+    height: 40px;
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#login{
+    float: left;
+    width: 235px;
+    height: 40px;
+    background: #fff;
+    margin-top: 40px;
+    margin-left: 85px;
+    text-align: center;
+
+}
+#login a{
+    text-decoration: none;
+    color: #000;
+}
+.loginform{
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    float: right;
+    width: 235px;
+    height: 100px;
+    background: #fff;
+    margin-left: 950px;
+    margin-top: 5px;
+    text-align: center;
+}
+.profilename{
+    float: left;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.profilename a{
+    color: #000;
+    text-decoration: none;
+}
+.profilename a:hover{
+    text-decoration: underline;
+}
+.profilephoto{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+.profilephoto img{
+    border-radius: 50px;
+}
+#home{
+    width: 1300px;
+    margin: 0 auto;
+    height: auto;
+}
+.homedesc{
+    float: left;
+    width: 900px;
+    height: 420px;
+    margin-top: 50px;
+    margin-left: 22px;
+    overflow: auto;
+    background: #c0c0c0;
+}
+.hometext{
+    float: left;
+    width: 1250px;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 22px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.registerform{
+    float: left;
+    width: 320px;
+    height: 320px;
+    margin-top: 50px;
+    margin-left: 50px;
+    overflow: auto;
+    padding-top: 100px;
+}
+.registerinput{
+    float: left;
+    width: 300px;
+    height: 25px;
+    margin-top: 3px;
+    text-align: center;
+}
+.registerbutton{
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.registerform select{
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+.logininput{
+    float: left;
+    width: 200px;
+    height: 25px;
+    margin-left: 16px;
+    margin-top: 3px;
+    text-align: center;
+}
+.loginbutton{
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.gender{
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 3px;
+    text-align: center;
+
+}
+#content{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    height: 2180px;
+    background: #c0c0c0;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.profilemain{
+    float: left;
+    width: 1170px;
+    height: 310px;
+    background: #fff;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.profilephotomain{
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.photomoremain{
+    float: left;
+    width: 120px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.morephoto{
+    float: left;
+    width: 110px;
+    height: 95px;
+    margin-left: 5px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.profiledescmain{
+    float: left;
+    width: 780px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.profiledescmain-left{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.profiledescmain-right{
+    float: left;
+    width: 480px;
+    height: 300px;
+}
+.profilenamemain{
+    float: left;
+    font-size: 24px;
+    color: #333;
+    width: 290px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.profiletitlemain{
+    font-size: 15px;
+    font-style: italic;
+}
+.profiledetailmain{
+    float: left;
+    font-size: 14px;
+    color: #333;
+    width: 290px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.social{
+    float:right;
+}
+.profiledescription{
+    float: left;
+    width: 480px;
+    height: 220px;
+    margin-top: 19px;
+    overflow-y: auto;
+    font-size: 15px;
+}
+.profileshowreel{
+    float: left;
+    width: 1170px;
+    height: 660px;
+    background: #fff;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.mainvideo iframe{
+    width: 1170px;
+    height: 490px;
+}
+.morevideo iframe{
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.projects{
+
+    text-align: center;
+    font-size: 24px;
+    float: left;
+    width: 1170px;
+    height: 660px;
+    background: #fff;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.firstProject{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.firstProject img{
+    float: left;
+    width: 200px;
+    height: 300px;
+}
+.projectdetails{
+    text-align: left;
+    margin-left: 220px;
+}
+.projectdetails p{
+    font-size: 15px;
+}
+.education{
+    float: left;
+    width: 1170px;
+    height: 475px;
+    background: #fff;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.educationlogo{
+    float:left;
+    margin-left: 25px;
+    width: 250px;
+    height: 250px;
+}
+.educationlogo img {
+    width: 250px;
+    height: 250px;
+}
+
+.educationdetails{
+    float:left;
+    margin-left: 50px;
+}
+.educationdesc{
+    float:right;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
