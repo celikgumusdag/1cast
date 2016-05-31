@@ -16,6 +16,7 @@
 
 	</div>
 
+
 	<div class="registerform">
 		<input type="text" class="registerinput" name="İsim" placeholder="Ad" />
 		<input type="text" class="registerinput" name="İsim" placeholder="Soyad"/>
